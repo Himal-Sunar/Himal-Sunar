@@ -1,0 +1,29 @@
+.todo-container {
+  padding: 20px;
+  font-family: Arial;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+.todo-item {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.delete-btn {
+  margin-left: 10px;
+  background-color: crimson;
+  color: white;
+  border: none;
+  padding: 4px 8px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.delete-btn:hover {
+  background-color: darkred;
+}
