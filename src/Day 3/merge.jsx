@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function merge() {
+export default function Merge() {
 
     const stringArray = ["apple ", "banana ", "cherry "];
     const numbers = [1 , 2 , 3 , 4 , 5];

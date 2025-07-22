@@ -1,6 +1,6 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
-import DayNavigation from './Day 7/Styles/Components/DayNavigation';
+import DayNavigation from './Day 7/Components/DayNavigation';
 
 export default function Layout() {
   return (

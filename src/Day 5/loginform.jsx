@@ -3,8 +3,8 @@ import "./loginform.css";
 
 function LoginForm() {
   const [formData, setFormData] = useState({
-    email: "kaludon1234@gmail.com",
-    password: "Kaludon1234"
+    email: "",
+    password: ""
   });
 
   const [errors, setErrors] = useState({});

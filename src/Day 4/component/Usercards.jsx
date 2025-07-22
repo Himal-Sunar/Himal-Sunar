@@ -14,8 +14,8 @@ const UserCards = ({ user }) => {
             textAlign: 'center'
         }}>
             <img
-                src={user.avatar}
-                alt={user.name}
+                src={user.picture.large}
+                alt={`${user.name.first} ${user.name.last}`}
                 className="user-avatar"
                 style={{
                     width: '80px',
@@ -26,10 +26,10 @@ const UserCards = ({ user }) => {
                     border: '2px solid #eee'
                 }}
             />
-            <h3 style={{ margin: '0.5rem 0', fontWeight: '600' }}>{user.name}</h3>
+            <h3 style={{ margin: '0.5rem 0', fontWeight: '600' }}>{`${user.name.title} ${user.name.first} ${user.name.last}`}</h3>
             <p style={{ color: '#555', margin: '0.25rem 0' }}>{user.email}</p>
             <p className="location" style={{ color: '#888', fontSize: '0.95rem' }}>
-                {user.location}
+                {user.location.city}
             </p>
         </div>
     );

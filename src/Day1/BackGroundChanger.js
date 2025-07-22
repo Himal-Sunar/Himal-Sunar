@@ -1,8 +1,6 @@
-import logo from './logo.svg';
-import './App.css';
-import { useState } from 'react';
+import React, { useState } from 'react'
 
-function App() {
+export default function BackGroundChanger() {
   const [bgColor, setBgColor] = useState("white");
 
   const changeColor = (color) => {
@@ -18,5 +16,5 @@ function App() {
       <button onClick={() => changeColor("white")} style={{marginLeft:'10px'}}>Reset</button>
     </div>
   </div>
-  );
+  )
 }
